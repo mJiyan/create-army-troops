@@ -1,0 +1,1 @@
+export { getTroopArrayFromStorage, setTroopArrayToStorage } from "./troopLocalStorage"

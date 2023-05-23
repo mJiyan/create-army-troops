@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: good-game-container
+    image: good-game-image
+    build:
+      context: .
+    ports:
+      - 8080:80
